@@ -1,0 +1,30 @@
+{
+  "name": "prospect-dossier-ai-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~3.2.3",
+    "@google/generative-ai": "^0.24.1",
+    "expo": "~51.0.28",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "0.74.5",
+    "react-native-web": "^0.19.13"
+  },
+  "devDependencies": {
+    "@types/react": "~18.2.79",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19",
+    "typescript": "~5.3.3"
+  }
+}
